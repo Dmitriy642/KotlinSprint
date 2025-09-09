@@ -6,8 +6,8 @@ fun main(){
   var minute = 7
 
     println("takeoff year:$year")
-    println("takeoff hour:$hour")
-    println("takeoff minute:$minute")
+    println("takeoff hour:0$hour")
+    println("takeoff minute:0$minute")
 
     hour = 10
     minute = 55
