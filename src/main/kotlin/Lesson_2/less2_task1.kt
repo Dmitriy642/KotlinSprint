@@ -1,4 +1,4 @@
-package org.example.Lesson1_1
+package org.example.Lesson_2
 
 class Person(val name: String, val mark: Double){
 }
