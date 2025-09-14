@@ -7,19 +7,19 @@ fun main() {
     println(
         "Груз с весом $weight кг и объемом $volume л соответствует категории 'Average': " +
                 "${
-                    (weight > MINIMUM_PERMISSIBLE_WEIGHT) and (weight <= MAXIMUM_PERMISSIBLE_WEIGHT)
-                            and (volume < MAXIMUM_PERMISSIBLE_VOLUME)
+                    (weight > MINIMUM_PERMISSIBLE_WEIGHT) &&
+                            (weight <= MAXIMUM_PERMISSIBLE_WEIGHT) && (volume < MAXIMUM_PERMISSIBLE_VOLUME)
                 }"
     )
 
     weight = 50
-    volume = 97
+    volume = 100
 
     println(
         "Груз с весом $weight кг и объемом $volume л соответствует категории 'Average': " +
                 "${
-                    (weight > MINIMUM_PERMISSIBLE_WEIGHT) and (weight <= MAXIMUM_PERMISSIBLE_WEIGHT)
-                            and (volume < MAXIMUM_PERMISSIBLE_VOLUME)
+                    (weight > MINIMUM_PERMISSIBLE_WEIGHT) &&
+                            (weight <= MAXIMUM_PERMISSIBLE_WEIGHT) && (volume < MAXIMUM_PERMISSIBLE_VOLUME)
                 }"
     )
 }
