@@ -5,7 +5,7 @@ fun main() {
     val split = dataString.split("-", ";")
     val startOfMove = split[0]
     val endOfMove = split[1]
-    val numberOfMove = split[3]
+    val numberOfMove = split[2]
 
     println(startOfMove)
     println(endOfMove)
