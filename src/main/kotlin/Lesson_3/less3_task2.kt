@@ -3,7 +3,7 @@ package org.example.Lesson_3
 fun main() {
     System.setOut(java.io.PrintStream(System.out, true, "UTF-8"))
     var lastName = "Андреева"
-    var name = "Татьяна"
+    val name = "Татьяна"
     var otchestvo = "Сергеевна"
     var age = 20
 
