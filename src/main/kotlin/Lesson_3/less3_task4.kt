@@ -6,11 +6,11 @@ fun main() {
     var endOfMove = "E4"
     var numberOfMove = 1
 
-    println("Ход чёрных: $startOfMove - $endOfMove; $numberOfMove")
+    println("$startOfMove-$endOfMove;$numberOfMove")
 
     startOfMove = "D2"
     endOfMove = "D3"
-    numberOfMove = 2
+    numberOfMove++
 
-    println("Ход белых: $startOfMove - $endOfMove; $numberOfMove")
+    println("$startOfMove-$endOfMove;$numberOfMove")
 }
