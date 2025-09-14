@@ -2,15 +2,15 @@ package org.example.Lesson_3
 
 fun main() {
     System.setOut(java.io.PrintStream(System.out, true, "UTF-8"))
-    var startOfMove = 2
-    var endOfMove = 4
-    var numberOfMove = 4
+    var startOfMove = "E2"
+    var endOfMove = "E4"
+    var numberOfMove = 1
 
-    println("Ход чёрных: [E$startOfMove -> E$endOfMove; $numberOfMove]")
+    println("Ход чёрных: $startOfMove - $endOfMove; $numberOfMove")
 
-    startOfMove = 2
-    numberOfMove = 5
-    endOfMove = startOfMove + 1
+    startOfMove = "D2"
+    endOfMove = "D3"
+    numberOfMove = 2
 
-    println("Ход белых: [D$startOfMove -> D$endOfMove; $numberOfMove]")
+    println("Ход белых: $startOfMove - $endOfMove; $numberOfMove")
 }
